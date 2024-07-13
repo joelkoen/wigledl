@@ -1,0 +1,10 @@
+[package]
+name = "wigledl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.9", features = ["derive"] }
+serde = { version = "1.0.204", features = ["derive"] }
+ureq = { version = "2.10.0", features = ["gzip", "json", "cookies"] }
